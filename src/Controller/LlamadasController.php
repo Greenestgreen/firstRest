@@ -151,7 +151,7 @@ class LlamadasController extends FOSRestController
     }
 
     /**
-     * @Route("/sec/", name="api")
+     * @Route("/v1/", name="api")
      */
     public function api()
     {

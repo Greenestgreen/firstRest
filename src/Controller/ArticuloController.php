@@ -30,7 +30,7 @@ class ArticuloController extends FOSRestController
     
 
     /**
-     * @Rest\Post("/sec/crear_articulo", name="crear_articulo")
+     * @Rest\Post("/v1/crear_articulo", name="crear_articulo")
      *
      * @SWG\Response(
      *     response=201,
@@ -100,7 +100,7 @@ class ArticuloController extends FOSRestController
     }
 
     /**
-     * @Rest\Get("/sec/mis_articulos", name="mis_articulos")
+     * @Rest\Get("/v1/mis_articulos", name="mis_articulos")
      *
      * @SWG\Response(
      *     response=201,
@@ -161,7 +161,7 @@ class ArticuloController extends FOSRestController
 
 
     /**
-     * @Rest\Put("/sec/publicar_articulo/{id}", name="publicar_articulo")
+     * @Rest\Put("/v1/publicar_articulo/{id}", name="publicar_articulo")
      *
      * @SWG\Response(
      *     response=201,
@@ -229,7 +229,7 @@ class ArticuloController extends FOSRestController
     }
 
      /**
-     * @Rest\Delete("/sec/borrar_articulo/{id}", name="borrar_articulo")
+     * @Rest\Delete("/v1/borrar_articulo/{id}", name="borrar_articulo")
      *
      * @SWG\Response(
      *     response=201,
@@ -298,7 +298,7 @@ class ArticuloController extends FOSRestController
 
 
     /**
-     * @Rest\Put("/sec/despublicar_articulo/{id}", name="despublicar_articulo")
+     * @Rest\Put("/v1/despublicar_articulo/{id}", name="despublicar_articulo")
      *
      * @SWG\Response(
      *     response=201,
@@ -367,7 +367,7 @@ class ArticuloController extends FOSRestController
 
 
     /**
-     * @Rest\Put("/sec/editar_articulo/{id}", name="editar_articulo")
+     * @Rest\Put("/v1/editar_articulo/{id}", name="editar_articulo")
      *
      * @SWG\Response(
      *     response=201,
