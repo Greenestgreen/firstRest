@@ -30,7 +30,7 @@ class ArticulosPublicosController extends FOSRestController
     
 
    /**
-     * @Rest\Get("/ver_articulo/{id}", name="listar_articulos")
+     * @Rest\Get("/ver_articulo/{id}", name="ver_articulo")
      *
      * @SWG\Response(
      *     response=201,
@@ -51,7 +51,7 @@ class ArticulosPublicosController extends FOSRestController
      * )
      *
      *
-     * @SWG\Tag(name="VerArticulos")
+     * @SWG\Tag(name="VerArticulo")
      */
     public function verarticuloAction(Request $request, $id) {
         $serializer = $this->get('jms_serializer');
@@ -125,7 +125,7 @@ class ArticulosPublicosController extends FOSRestController
      * )
      *
      *
-     * @SWG\Tag(name="VerArticulos")
+     * @SWG\Tag(name="VerListadoArticulos")
      */
      public function listadoarticulosAction(Request $request, $cantidad) {
         $serializer = $this->get('jms_serializer');
