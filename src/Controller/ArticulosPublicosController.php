@@ -87,7 +87,7 @@ class ArticulosPublicosController extends FOSRestController
         } catch (Exception $ex) {
             $code = 500;
             $error = true;
-            $message = "Error al crear el articulo :( - Error: {$ex->getMessage()}";
+            $message = "Error al buscar el articulo :( - Error: {$ex->getMessage()}";
         }
 
         $response = [
@@ -154,7 +154,7 @@ class ArticulosPublicosController extends FOSRestController
         } catch (Exception $ex) {
             $code = 500;
             $error = true;
-            $message = "Error al crear el articulo :( - Error: {$ex->getMessage()}";
+            $message = "Error al buscar los articulos :( - Error: {$ex->getMessage()}";
         }
 
         $response = [

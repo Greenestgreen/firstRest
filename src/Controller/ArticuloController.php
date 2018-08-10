@@ -147,7 +147,7 @@ class ArticuloController extends FOSRestController
         } catch (Exception $ex) {
             $code = 500;
             $error = true;
-            $message = "Error al crear el articulo :( - Error: {$ex->getMessage()}";
+            $message = "Error al traer los articulos :( - Error: {$ex->getMessage()}";
         }
 
         $response = [
