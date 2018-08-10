@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: My Test API
+            description: Test option
+            version: 1.0.0
+    routes: # to filter documented routes
+        path_patterns:
+            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc
